@@ -1,0 +1,14 @@
+using static System.Console;
+int inicial, final;
+WriteLine("Digite um valor");
+inicial = Convert.ToInt32(ReadLine());
+WriteLine("Digite outro valor");
+final = Convert.ToInt32(ReadLine());
+for (int i = 0; i < final; i++)
+{
+    if (i % 2 == 0)
+    {
+        WriteLine($"intervalo: {i}");
+    }
+    
+}
